@@ -1,0 +1,38 @@
+.ModalBack {
+    background: rgba(0, 0, 0, 0.692);
+    // background: rgba(0, 0, 0, 0.9);
+    display: none;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    .ModalContent {
+        z-index: 100;
+        padding: 1em;
+        position: relative;
+        width: 55%;
+        min-width: 300px;
+        // border: 1px solid rgb(227, 227, 227);
+        background: rgb(227, 227, 227);
+        border-radius: .3em;
+        >button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            position: absolute;
+            border: none;
+            background: transparent;
+            top: .5%;
+            right: .5%;
+            font-size: 2em;
+        }
+    }
+}
+.ModalBack.active{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

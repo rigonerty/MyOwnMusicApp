@@ -1,0 +1,42 @@
+.Select{
+    width:max-content;
+    position: relative;
+    >div{
+        border: 1px solid rgb(228, 194, 1);
+        display: inline-block;
+        display: flex;
+        align-items: center;
+        padding: .5em;
+        border-radius: .3em;
+        >img {
+            transition: .3s;
+            margin-left: .5em;
+            display: block;
+            width: .8em;
+            height: .8em;
+            transform: rotate(90deg);
+        }
+    }
+    >div.active{
+        >img{transform: rotate(-90deg);}
+    }
+    >div:hover{
+        border: 1px solid rgb(190, 170, 51);
+    }
+    >ul{
+        z-index: 5;
+        position: absolute;
+        width: 100%;
+        margin-top: .3em;
+        list-style: none;
+        border: 1px solid gray;
+        border-radius: .3em;
+        background: rgb(227, 227, 227);
+        li{
+            padding: .5em;
+        }
+        li:hover{
+            background: rgb(240, 213, 63);
+        }
+    }
+}

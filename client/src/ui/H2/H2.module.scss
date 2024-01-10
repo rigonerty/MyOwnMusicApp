@@ -1,0 +1,19 @@
+$font-border: black;
+.H2{
+    margin: 1em 0;
+    position: relative;
+    z-index: 1;
+    font-weight: 800;
+
+    span {
+        font-weight: 500;
+        z-index: -1;
+        position: absolute;
+        left: 1%;
+        bottom: 0;
+        color: rgb(227, 227, 227);
+        // text-shadow: 2px 0 $font-border,-2px 0 $font-border,0 2px $font-border,0 -2px $font-border, 1px 1px $font-border,-1px -1px $font-border,1px -1px $font-border,-1px 1px $font-border;
+        text-shadow: 0 0 2px $font-border;
+        font-size: 1.5em;
+    }
+}
