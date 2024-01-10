@@ -1,0 +1,27 @@
+.SelectAuthor{
+    display: flex;
+    >button{
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        background: transparent;
+        justify-content: space-around;
+        flex: 0 0 auto;
+        border: 1px solid rgb(228, 194, 1);
+        border-radius: .3em;
+        width: 2em;
+        overflow: hidden;
+        height: inherit;
+        font-size: 1.4em;
+        margin-left: .5em;
+    }
+    .SelectAuthorModal{
+        button{
+            cursor: pointer;
+            margin-top: 1em;
+            border: 1px solid rgb(228, 194, 1);
+            background: transparent;
+            padding: .5em;
+        }
+    }
+}

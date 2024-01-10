@@ -1,0 +1,66 @@
+.AlbumModal{
+    display: flex;
+    >div:first-child {
+        width: 25%;
+        img {
+            width: 100%;
+            border-radius: .3em;
+            box-shadow: 0px 0px 3px rgb(48, 48, 48);
+        }
+        >div {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            >button {
+                border-radius: .2em;
+                width: 48%;
+                cursor: pointer;
+                border: none;
+                background: transparent;
+                padding: .7em;
+            }
+            >button:hover {
+                background: rgb(190, 170, 51);
+            }
+            >.AlbumPlay {
+                margin-bottom: .5em;
+                width: 100%;
+                background: rgb(255, 229, 81);
+            }
+        }
+    }
+    >div:last-child{
+        padding: 0 1em;
+        width: 75%;
+    }
+    .Info {
+        margin-bottom: 1em;
+        >h3 {
+            font-size: 1.5em;
+            display: flex;
+            justify-content: center;
+            align-items:baseline;
+            >button{
+                display: block;
+                padding: 0;
+                background: transparent;
+                border:none;
+                margin-left: .5em;
+            }
+        }
+
+        >p {
+            margin-top: .5em;
+            color: rgb(58, 58, 58);
+            // color: rgb(214, 214, 214);
+        }
+    }
+    .List{
+        height: 25em;
+        overflow-y: auto;
+        >div{
+            width: 100%;
+        }
+    }
+}

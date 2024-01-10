@@ -1,0 +1,39 @@
+$back: #ffffff;
+$sizeLink: 2em;
+.NavLink{
+    outline: none;
+    padding: .9em;
+    display: flex;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    position: relative;
+    color:rgb(77, 77, 77);
+    img{
+        width: $sizeLink;
+        height: $sizeLink;
+    }
+    div {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: max-content;
+        height: 100%;
+        border-radius: .2em 0 0 .2em;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        padding: .5em;
+        background: $back;
+    }
+    .right { left: 100%;}
+    .left{ right: 100%; }
+}
+.NavLink:hover, .NavLink:focus{
+
+    background-color: $back;
+    div {
+        display: flex;
+    }
+}

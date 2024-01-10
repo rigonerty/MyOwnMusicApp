@@ -1,0 +1,14 @@
+.ImgCrop{
+    padding: 1em;
+    >button{
+        width: 100%;
+        cursor: pointer;
+        border: 1px solid rgb(228, 194, 1);
+        margin: .5em 0;
+        background: transparent;
+        padding: .5em;
+    }
+    >button:hover{
+        background: rgb(228, 194, 1);
+    }
+}

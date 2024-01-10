@@ -1,0 +1,39 @@
+.AlbumCard{
+    height: 250px;
+    width: 125px;
+    overflow: hidden;
+    margin: .5em 2.5em .5em 0;
+    position: relative;
+    >p{
+        z-index: 2;
+        position: absolute;
+        writing-mode: vertical-rl;
+        color: white;
+        padding: .5em;
+        font-size: 1.15em;
+    }
+    >div{
+        z-index: 1;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(34, 34, 34, 0.6);
+    }
+    >img{
+        transition: .6s;
+        right: 0;
+        position: relative;
+        height: 250px;
+    }
+}
+.AlbumCard:hover{
+    >p{
+        color:black;
+    }
+    >div{
+        background: rgba(255, 251, 0, 0.6);
+    }
+    >img{
+        right: 62px;
+    }
+}

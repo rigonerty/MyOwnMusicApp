@@ -1,0 +1,40 @@
+.InputForm{
+    >label{
+        position: relative;
+        >input{
+            border-radius: .3em;
+            border: 1px solid rgb(88, 88, 88);
+            display: block;
+            width: 100%;
+            padding: .5em;
+            margin: .2em 0;
+        }
+        >input:focus {
+            outline: rgb(224, 224, 7) solid 2px;
+        }
+        >i{
+            cursor: pointer;
+            display: block;
+            position: absolute;
+            right: .5em;
+            bottom: 0;
+            >img{
+                height: 1.5em;
+                width: 1.5em;
+            }
+        }
+    }
+    >div{
+        height: 2em;
+        color: red;
+        font-size: .8em;
+        >span{
+            margin-left: 1em;
+        }
+    }
+}
+.InputForm.InputFormError{
+    input{
+        border: 1px solid red;
+    }
+}

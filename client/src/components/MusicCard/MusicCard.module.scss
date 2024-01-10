@@ -1,0 +1,61 @@
+
+.MusicCard,.MusicCardLine{
+    border: 1px solid rgb(43, 43, 43);
+    margin-bottom: 1em;
+    border-radius: .3em;
+    >img {
+        width: 100%;
+        border-radius: .3em;
+        box-shadow: 0px 0px 3px rgb(48, 48, 48);
+    }
+    >div {
+        display: flex;
+        justify-content: space-between;
+        .MusicCardAuthor,
+        .MusicCardAlbum {
+            text-align: center;
+            color: #292929;
+            font-size: .7em;
+        }
+    }
+
+}
+.MusicCard{
+    flex: 0 0 auto;
+    width: 15%;
+    margin: .5em .83%;
+    padding: 1em;
+    >div{
+        height: inherit;
+        flex-direction: column;
+        >.MusicCardInfo{
+            position: relative;
+        }
+        >.MusicCardName{
+            margin-top: .5em;
+            margin-bottom: 1em;
+            font-size: 1em;
+            text-align: center;
+        }     
+    }
+}
+.MusicCard:hover,.MusicCardLine:hover{
+    // background: #c7c6c6;
+    border: 1px solid rgb(228, 194, 1);
+}
+.MusicCardLine{
+    padding: .7em;
+    width: 48%;
+    height: 5em;
+    display: flex;
+    >img {
+        height: 100%;
+        width: auto;
+    }
+    >div {
+        width: 100%;
+        padding: .4em;
+        align-items: center;       
+    }
+
+}
