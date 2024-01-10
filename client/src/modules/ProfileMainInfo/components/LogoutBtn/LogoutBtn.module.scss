@@ -1,0 +1,13 @@
+.LogoutBtn{
+    background: red;
+    border:none;
+    border-radius: .3em;
+    width: 100%;
+    padding: 1em;
+    cursor: pointer;
+    margin-top: 2em;
+    font-size: 1.1em;
+}
+.LogoutBtn:hover{
+    background: rgb(202, 0, 0);
+}

@@ -1,0 +1,1 @@
+export {ProfileMainInfo} from "./components/ProfileMainInfo/ProfileMainInfo"
