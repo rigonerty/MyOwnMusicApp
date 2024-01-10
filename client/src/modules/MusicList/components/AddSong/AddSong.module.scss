@@ -1,0 +1,18 @@
+.addSong{
+    border:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:transparent;
+    cursor: pointer;
+    overflow: visible;
+    width: 2em;
+    height: 2em;
+    >span{
+        font-size: 3em;
+    }
+}
+.addSongModal{
+    display: flex;
+    justify-content: space-between;
+}

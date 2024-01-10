@@ -1,0 +1,11 @@
+.ChangeUI{
+    margin-top: 2em;
+    >div{
+        margin-bottom: 1em;
+        display: flex;
+        align-items: center;
+        >p{
+            margin-right: 1em;
+        }
+    }
+}

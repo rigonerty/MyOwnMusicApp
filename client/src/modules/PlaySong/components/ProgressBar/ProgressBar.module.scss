@@ -1,0 +1,31 @@
+.ProgressBar{
+    margin-left: 1em;
+    >div{
+        width: 45vw;
+        border-radius: .2em;
+        height: .2em;
+        background: grey;
+        cursor: pointer;
+        >span{
+            position: relative;
+            display: flex;
+            align-items: center;
+            border-radius: .2em;
+            width: 0%;
+            height: .2em;
+            background: rgb(228, 194, 1);
+            >i{
+                position: absolute;
+                display: block;
+                border-radius: 100%;
+                background-color: rgb(228, 194, 1);
+                height: .6em;
+                width: .6em;
+                right: -.3em;
+            }
+        }
+    }
+    >p{
+        margin-top: .5em;
+    }
+}

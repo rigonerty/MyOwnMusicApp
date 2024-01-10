@@ -1,0 +1,25 @@
+.SongInfo{
+    display: flex;
+    width: 40%;
+    justify-content: left;
+    align-items: center;
+    >img{
+        box-shadow: 0px 0px 3px black;
+        display: block;
+        height: 4em;
+        width: 4em;
+        background: black;
+    }
+    >div{
+        margin-left: .5em;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        >p:first-child{font-size: 1.4em;}
+        >p:last-child{
+            font-size: .9em;
+            color:grey
+        }
+    }
+}

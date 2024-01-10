@@ -1,0 +1,18 @@
+.SelectType{
+    display: flex;
+    margin-bottom: 1.5em;
+    justify-content: space-around;
+    >button{
+        padding: .5em;
+        font-size: 1.2em;
+        border: none;
+        border-bottom: 2px solid transparent;
+        background: transparent;
+    }
+    >button:hover{
+        background: rgb(182, 182, 182);
+    }
+    >.active{
+        border-bottom: 2px solid rgb(228, 194, 1);
+    }
+}

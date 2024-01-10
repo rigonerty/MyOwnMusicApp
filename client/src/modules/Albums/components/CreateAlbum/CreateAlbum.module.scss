@@ -1,0 +1,15 @@
+.CreateAlbum{
+    border: 1px solid black;
+    height: 250px;
+    margin-left: 1em;
+    width: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    >p{
+        >span{
+            font-size: 1.6em;
+        }
+    }
+}

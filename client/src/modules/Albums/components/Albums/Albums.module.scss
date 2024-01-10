@@ -1,0 +1,15 @@
+$font-border: rgb(0, 0, 0);
+.Albums{
+    .AlbumsContainer{
+        display: flex;
+        align-items: center;
+    }
+    .AlbumsList{
+        display: flex;
+        overflow-x: auto;
+        max-width: 83%;
+        >div{
+            flex: 0 0 auto;
+        }
+    }
+}

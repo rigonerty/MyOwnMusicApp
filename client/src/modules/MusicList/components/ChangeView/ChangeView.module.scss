@@ -1,0 +1,50 @@
+.ChangeView{
+    margin-bottom: .5em;
+    border-bottom: 1px solid rgb(126, 126, 126);
+    padding: .5em;
+    display: flex;
+    justify-content: space-between;
+    >.ChangeViewContent {
+        width: 6.5em;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        >div{
+            border-radius: .3em;
+            width: 2.5em;
+            left: 0;
+            height: 100%;
+            background: rgb(224, 224, 7);
+            transition: .3s;
+            position: absolute;
+        }
+        .block{
+            left: 0;
+        }
+        .line{
+            left: 4em;
+        }
+        button {
+            z-index: 2;
+            border-radius: .3em;
+            img {
+                width: 2em;
+                height: 2em;
+            }
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 3em;
+            height: 3em;
+            background-color: transparent;
+            border: none;
+            background-size: contain;
+        }
+    
+        // button:hover {
+        //     background-color: rgba(131, 131, 131, 0.637);
+        // }
+    
+    }
+
+}

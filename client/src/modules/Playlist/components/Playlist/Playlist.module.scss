@@ -1,0 +1,14 @@
+$font-border: rgb(0, 0, 0);
+.Playlist{
+    >div{
+       display: flex; 
+       >div{
+        display: flex;
+       }
+    }
+    .Playlist_List{
+        z-index: 1;
+        overflow: auto;
+        max-width: 76.4%;
+    }
+}

@@ -1,0 +1,19 @@
+.ChangeInfo{
+    height: 15vw;
+    width: 100%;
+    >form{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        >div{
+            width: 45%;
+            label {
+                    >input {
+                        margin-top: 1em;
+                    }
+                }            
+        }
+
+    }
+}

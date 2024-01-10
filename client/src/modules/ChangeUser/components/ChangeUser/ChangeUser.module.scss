@@ -1,0 +1,13 @@
+.ChangeUser{
+    margin-bottom: 1em;
+    height: 15vw;
+    position: relative;
+    >div{
+        display: flex;
+    }
+    >button{
+        position: absolute;
+        right: 0;
+        padding: .5em 1em;
+    }
+}

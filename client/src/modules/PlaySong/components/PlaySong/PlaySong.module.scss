@@ -1,0 +1,17 @@
+.PlaySong{
+    position: absolute;
+    bottom: 0;
+    z-index: 99;
+    box-shadow: 0px -2px black;
+    display: flex;
+    justify-content: space-around;
+    left: 0;
+    width: 100%;
+    // border-radius: 5em 5em 0 0;
+    // height: 5vh;
+    padding: .5em;
+    background: rgb(227, 227, 227);
+    >div{
+        width: 33%
+    }
+}

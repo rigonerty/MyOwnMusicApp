@@ -1,0 +1,17 @@
+.Controls{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    >div>button{
+        cursor: pointer;
+        border: none;
+        background: transparent;
+        padding: .5em;
+    }
+}
+.Controls2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

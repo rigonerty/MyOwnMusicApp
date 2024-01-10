@@ -1,0 +1,29 @@
+.AddImgForSong{
+    width: 35%;
+    >div{
+        position: relative;
+        >img{
+            width: 100%;
+            border-radius: .3em;
+        }
+        >button{
+            cursor: pointer;
+            transition: .5s;
+            border-radius: .3em;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            border: none;
+            background: rgba(128, 128, 128, 0.774);
+            filter: opacity(0);
+        }
+        >button:hover{
+            filter: opacity(1);
+        }
+    }
+}
